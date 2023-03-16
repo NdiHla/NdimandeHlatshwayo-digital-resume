@@ -16,7 +16,7 @@
     border-right-width: 10px;
     border-color: #006A4E;
     border-radius: 10px 20px 30px 40px;
-    
+
     }
     section{
     font-family: Arial, Helvetica, sans-serif;
@@ -24,15 +24,13 @@
     padding: 40px;
     text-align: center;
     }
+
     aside{
       background-color: #808000;
       font-family: Arial, Helvetica, sans-serif;
       margin: 20px;
       padding: 40px;
       text-align: center;
-    }
-    footer{
-    
     }
     
     h2 {
@@ -41,11 +39,10 @@
     margin: 4px;
     padding: 5px;
     }
-    
-    
+     
     img {
       border-radius: 50%;
-    
+      background-color: #ccc;
     }
     
     /*Hero Image*/
@@ -83,7 +80,7 @@
       display: inline-block;
       padding: 10px 25px;
       color: black;
-      background-color: #ddd;
+      background-color: #f1f1f1;
       text-align: center;
       cursor: pointer;
     }
@@ -96,6 +93,7 @@
     /*Buttons*?
     .btn-group button {
       background-color: #04AA6D; /* Green background */
+      .btn-group button {
       border: 1px solid green; /* Green border */
       color: white; /* White text */
       padding: 10px 24px; /* Some padding */
@@ -105,7 +103,7 @@
     
     /* Clear floats (clearfix hack) */
     .btn-group:after {
-      content: "";
+      content: "normal";
       clear: both;
       display: table;
     }
